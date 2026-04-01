@@ -8,7 +8,7 @@ const translations = {
         'nav.contact': 'Contact',
         
         // Hero
-        'hero.title': 'Crafting Intelligent <span class="gradient-text">Financial Systems</span>',
+        'hero.title': 'Crafting Intelligent <span class="gradient-text">Systems</span>',
         'hero.description': 'Full-stack developer specializing in .NET, financial data systems, and phase-aware market analysis. Building tools that transform complex data into actionable insights.',
         'hero.btn.projects': 'View Projects',
         'hero.btn.contact': 'Get in Touch',
@@ -18,7 +18,7 @@ const translations = {
         
         // Projects section
         'projects.title': 'Featured Projects',
-        'projects.subtitle': 'Building the future of financial analysis',
+        'projects.subtitle': 'Building the future of analysis',
         'projects.latest': 'Latest',
         
         // PhaseForge Scout
@@ -71,6 +71,9 @@ const translations = {
         // Popup
         'popup.badge': '🎉 Latest Work',
         'popup.title': 'PhaseForge Scout is Live!',
+        'popup.offline': 'Sorry, not online yet',
+        'popup.offline.message': 'This project is currently under development and not publicly available yet.',
+        'popup.offline.close': 'Close',
         'popup.desc': 'Phase-aware stock discovery with intelligent scoring, live data integration, and comprehensive tooltips. Features dynamic universe expansion, REST API, and calculation explanations.',
         'popup.feature1': '✨ Auto-expanding universe',
         'popup.feature2': '🎯 Intelligent caching',
@@ -87,7 +90,7 @@ const translations = {
         'nav.contact': 'Kontakt',
         
         // Hero
-        'hero.title': 'Udvikler Intelligente <span class="gradient-text">Finansielle Systemer</span>',
+        'hero.title': 'Udvikler Intelligente <span class="gradient-text">Systemer</span>',
         'hero.description': 'Full-stack udvikler med speciale i .NET, finansielle datasystemer og faseopmærksomme markedsanalyser. Bygger værktøjer der transformerer komplekse data til handlingsrettede indsigter.',
         'hero.btn.projects': 'Se Projekter',
         'hero.btn.contact': 'Kontakt mig',
@@ -97,7 +100,7 @@ const translations = {
         
         // Projects section
         'projects.title': 'Udvalgte Projekter',
-        'projects.subtitle': 'Bygger fremtidens finansielle analyse',
+        'projects.subtitle': 'Bygger fremtidens analyse',
         'projects.latest': 'Nyeste',
         
         // PhaseForge Scout
@@ -150,6 +153,9 @@ const translations = {
         // Popup
         'popup.badge': '🎉 Nyeste Arbejde',
         'popup.title': 'PhaseForge Scout er Live!',
+        'popup.offline': 'Desværre ikke online lige nu',
+        'popup.offline.message': 'Dette projekt er under udvikling og ikke offentligt tilgængeligt endnu.',
+        'popup.offline.close': 'Luk',
         'popup.desc': 'Faseopmærksom aktie-opdagelse med intelligent scoring, live data-integration og omfattende tooltips. Funktioner inkluderer dynamisk univers-udvidelse, REST API og beregningsforklaringer.',
         'popup.feature1': '✨ Auto-udvide univers',
         'popup.feature2': '🎯 Intelligent caching',

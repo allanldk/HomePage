@@ -1,0 +1,14 @@
+# PhaseForge Scout - offline (remove GitHub link, add offline)
+s|<a href="https://github.com/allanldk/PhaseForge.Scout" class="project-link" target="_blank">.*</a>|<a href="#" class="project-link project-link-offline">\n                                <span data-i18n="project.screener.link">Visit Site</span>\n                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg>\n                            </a>|
+
+# CashFlowCompass - offline (remove GitHub link, add offline)
+s|<a href="https://github.com/allanldk/CashFlowCompass" class="project-link" target="_blank">.*</a>|<a href="#" class="project-link project-link-offline">\n                                <span data-i18n="project.screener.link">Visit Site</span>\n                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg>\n                            </a>|
+
+# EarningsScreener - change http to https
+s|http://screener.allanl.dk|https://screener.allanl.dk|g
+
+# SophiasTrendChoice - offline (remove GitHub link, add offline)
+s|<a href="https://github.com/allanldk/SophiasTrendChoice" class="project-link" target="_blank">.*</a>|<a href="#" class="project-link project-link-offline">\n                                <span data-i18n="project.screener.link">Visit Site</span>\n                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg>\n                            </a>|
+
+# PhaseForge MarketState - change http to https
+s|http://phaseforge.allanl.dk/pages/marketstate.html|https://phaseforge.allanl.dk/pages/marketstate.html|g
