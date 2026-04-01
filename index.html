@@ -316,8 +316,8 @@
     <div id="latest-work-popup" class="popup-overlay">
         <div class="popup">
             <button class="popup-close" onclick="closePopup()">×</button>
-            <div class="popup-badge">🎉 Latest Work</div>
-            <h3>PhaseForge Scout is Live!</h3>
+            <div class="popup-badge" data-i18n="popup.badge">🎉 Latest Work</div>
+            <h3 data-i18n="popup.title">PhaseForge Scout is Live!</h3>
             <img src="images/phaseforge-scout-hero.png" alt="PhaseForge Scout" class="popup-image" onerror="this.src='images/placeholder.png'">
             <p>
                 Phase-aware stock discovery with intelligent scoring, live data integration, and comprehensive tooltips. 
@@ -330,8 +330,8 @@
                 <div class="feature">💡 Calculation modals</div>
             </div>
             <div class="popup-buttons">
-                <a href="#projects" class="btn btn-primary" onclick="closePopup()">View Project</a>
-                <button class="btn btn-secondary" onclick="closePopup()">Maybe Later</button>
+                <a href="#projects" class="btn btn-primary" onclick="closePopup()" data-i18n="popup.btn.view">View Project</a>
+                <button class="btn btn-secondary" onclick="closePopup()" data-i18n="popup.btn.later">Maybe Later</button>
             </div>
         </div>
     </div>
