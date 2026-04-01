@@ -23,14 +23,18 @@ function closePopup() {
     }
 }
 
-// Close popup when clicking overlay
+// Close popup when clicking/touching overlay
 document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.getElementById('latest-work-popup');
     if (overlay) {
-        overlay.addEventListener('click', function(e) {
-            if (e.target === overlay) {
-                closePopup();
-            }
+        // Support both click and touch events
+        ['click', 'touchend'].forEach(eventType => {
+            overlay.addEventListener(eventType, function(e) {
+                if (e.target === overlay) {
+                    e.preventDefault();
+                    closePopup();
+                }
+            });
         });
     }
 });

@@ -584,6 +584,9 @@ section {
     font-size: 1.5rem;
     cursor: pointer;
     transition: all var(--transition);
+    z-index: 10;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .popup-close:hover {
@@ -700,6 +703,19 @@ section {
     
     .project-card.featured {
         grid-column: span 1;
+    }
+    
+    .popup {
+        padding: 2rem 1.5rem;
+        width: 95%;
+    }
+    
+    .popup-close {
+        width: 48px;
+        height: 48px;
+        font-size: 1.75rem;
+        top: 0.75rem;
+        right: 0.75rem;
     }
     
     .popup-features {
