@@ -149,6 +149,34 @@ body {
     width: 100%;
 }
 
+/* Language Switcher */
+.lang-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.lang-flag {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all var(--transition);
+    opacity: 0.6;
+    border: 2px solid transparent;
+}
+
+.lang-flag:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.lang-flag.active {
+    opacity: 1;
+    border-color: var(--primary);
+    box-shadow: 0 0 12px rgba(94, 179, 255, 0.4);
+}
+
 /* ============================================
    Hero Section
    ============================================ */
@@ -694,6 +722,10 @@ section {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+    }
+    
+    .lang-switcher {
+        margin-left: auto;
     }
     
     .hero {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; padding: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1200" height="630"></canvas>
+    <script>
+        const projects = [
+            { name: 'PhaseForge Scout', colors: ['#5eb3ff', '#6dd4bd'], file: 'phaseforge-scout.png' },
+            { name: 'PhaseForge Scout', colors: ['#5eb3ff', '#a68aff'], file: 'phaseforge-scout-hero.png' },
+            { name: 'CashFlowCompass', colors: ['#6dd4bd', '#a68aff'], file: 'cashflowcompass.png' },
+            { name: 'SophiasTrendChoice', colors: ['#ff8eb8', '#a68aff'], file: 'sophiastrendchoice.png' },
+            { name: 'PhaseForge', colors: ['#5eb3ff', '#ff8eb8'], file: 'phaseforge.png' }
+        ];
+        
+        projects.forEach(project => {
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Gradient background
+            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            gradient.addColorStop(0, project.colors[0]);
+            gradient.addColorStop(1, project.colors[1]);
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Semi-transparent overlay
+            ctx.fillStyle = 'rgba(10, 22, 40, 0.7)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Grid pattern
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < canvas.width; i += 50) {
+                ctx.beginPath();
+                ctx.moveTo(i, 0);
+                ctx.lineTo(i, canvas.height);
+                ctx.stroke();
+            }
+            for (let i = 0; i < canvas.height; i += 50) {
+                ctx.beginPath();
+                ctx.moveTo(0, i);
+                ctx.lineTo(canvas.width, i);
+                ctx.stroke();
+            }
+            
+            // Project name
+            ctx.fillStyle = '#ffffff';
+            ctx.font = 'bold 72px Inter, sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(project.name, canvas.width / 2, canvas.height / 2);
+            
+            // Download
+            canvas.toBlob(blob => {
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = project.file;
+                a.click();
+            });
+        });
+    </script>
+</body>
+</html>
