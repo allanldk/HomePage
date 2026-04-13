@@ -47,6 +47,11 @@ const translations = {
         'project.phaseforge.title': 'PhaseForge Platform',
         'project.phaseforge.desc': 'Comprehensive indicator dashboard with 38+ financial indicators. Real market data validation, Cyclus Compass, Pillar Signaler, and interactive heatmap visualization.',
         
+        // SiteTraffic
+        'project.sitetraffic.title': 'SiteTraffic Analytics',
+        'project.sitetraffic.desc': 'Real-time analytics dashboard for website traffic monitoring. Session-based authentication, admin panel for user management, mobile-responsive tables, and comprehensive user journey tracing.',
+        'project.sitetraffic.link': 'Visit Dashboard',
+        
         // About section
         'about.title': 'About Me',
         'about.lead': 'Passionate software developer with 15+ years of experience building enterprise-grade financial systems and data-driven applications.',
@@ -128,6 +133,11 @@ const translations = {
         // PhaseForge Platform
         'project.phaseforge.title': 'PhaseForge Platform',
         'project.phaseforge.desc': 'Omfattende indikator-dashboard med 38+ finansielle indikatorer. Validering af reelle markedsdata, Cyclus Compass, Pillar Signaler og interaktiv heatmap-visualisering.',
+        
+        // SiteTraffic
+        'project.sitetraffic.title': 'SiteTraffic Analytics',
+        'project.sitetraffic.desc': 'Realtids analyticsdashboard til webstedsgenartikelovervågning. Session-baseret autentificering, admin-panel til brugerstyring, mobilresponsive tabeller og omfattende user journey-sporing.',
+        'project.sitetraffic.link': 'Besøg Dashboard',
         
         // About section
         'about.title': 'Om Mig',
